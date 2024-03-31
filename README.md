@@ -1,2 +1,2 @@
 This is the landing page from the odin foundation:
-https://www.theodinproject.com/paths/foundations/courses/foundations
+https://www.theodinproject.com/lessons/foundations-landing-page
