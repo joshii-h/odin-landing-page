@@ -47,7 +47,13 @@ body > * {
 .header>div {
     padding-left: 1.5em;
 }
-
+a {
+    text-decoration: none;
+    color: var(--header-logo-text);
+}
+a:hover{
+    text-decoration: underline;
+}
 .header>img {
     flex-grow: 3;
     font-weight: bold;
@@ -94,6 +100,7 @@ h1 {
 /**  RANDOM SECTION **/
 .section-random {
     text-align: center;
+    padding: 3em, 28em;
 }
 
 .section-random>h2 {
@@ -106,7 +113,7 @@ h1 {
 .flex-images {
     display: flex;
     margin-top: 2em;
-    gap: 6.1em;
+    gap: 4em;
     align-items: center;
     justify-content: center;
 }
@@ -123,6 +130,7 @@ h1 {
 
 /**  QUOTE SECTION **/
 .section-quote {
+    padding: 3em 28em;
     background-color: var(--hero-sec-text-and-quote);
 }
 
