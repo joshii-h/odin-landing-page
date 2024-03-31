@@ -1,0 +1,171 @@
+:root {
+    --dark-color: #1F2937;
+    --hero-sec-text-and-quote: #E5E7EB;
+    --header-logo-text: #F9FAF8;
+    --button-color: #3882F6;
+}
+
+* {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+*::-webkit-scrollbar {
+    display: none;
+    /* Chromium browsers and Safari*/
+}
+
+body {
+    margin: 0;
+}
+
+body > * {
+    padding: 3em 25em;
+}
+
+/**  Header SECTION **/
+
+.header {
+    background-color: var(--dark-color);
+    color: var(--header-logo-text);
+    display: flex;
+    padding: 0 25em;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.element {
+    flex-direction: column;
+    padding: 1em 0;
+}
+
+.header>div {
+    padding-left: 1.5em;
+}
+
+.header>img {
+    flex-grow: 3;
+    font-weight: bold;
+}
+
+/**  HERO SECTION **/
+.section-hero {
+    display: flex;
+    background-color: var(--dark-color);
+}
+
+.hero-left {
+    padding-right: 2.5em;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: var(--header-logo-text);
+    margin: 0;
+
+}
+
+.hero-left>p {
+    color: var(--hero-sec-text-and-quote);
+    font-size: 18px;
+    margin: 0.8em 0;
+}
+
+.hero-left>button {
+    background-color: var(--button-color);
+    color: var(--hero-sec-text-and-quote);
+    font-weight: bold;
+    border: none;
+    padding: 0.5em 1.5em;
+    font-size: 18px;
+    border-radius: 0.5em;
+}
+
+.hero-right {
+    padding-left: 2.5em;
+}
+
+/**  RANDOM SECTION **/
+.section-random {
+    text-align: center;
+}
+
+.section-random>h2 {
+    font-size: 36px;
+    color: var(--dark-color);
+    font-weight: bolder;
+    margin: 0 auto;
+}
+
+.flex-images {
+    display: flex;
+    margin-top: 2em;
+    gap: 6.1em;
+    align-items: center;
+    justify-content: center;
+}
+
+.small-part > p {
+    max-width: 200px;
+}
+
+.small-part>img {
+    border-color: var(--button-color);
+    border-radius: 0.5em;
+    border-style: solid;
+}
+
+/**  QUOTE SECTION **/
+.section-quote {
+    background-color: var(--hero-sec-text-and-quote);
+}
+
+.section-quote>.italic-quote {
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: var(--dark-color);
+    margin: 0;
+    padding: 2em 0;
+}
+
+.section-quote>#quote-source {
+    float: right;
+    color: var(--dark-color);
+    font-weight: bolder;
+}
+
+/**  CTO SECTION **/
+
+.section-cto {
+    background-color: var(--button-color);
+    display: flex;
+    margin: 5em 25em;
+    padding: 2.5em 5em;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.5em;
+    color: var(--header-logo-text);
+}
+.cto-text > *{
+    margin: 0;
+}
+.cto-text {
+    flex-grow: 2;
+}
+.cto-button > button{
+    background-color: var(--button-color);
+    color: var(--hero-sec-text-and-quote);
+    font-weight: bold;
+    padding: 0.5em 1.5em;
+    font-size: 18px;
+    border-radius: 0.5em;
+    border-style: solid;
+    border-color: var(--header-logo-text);
+}
